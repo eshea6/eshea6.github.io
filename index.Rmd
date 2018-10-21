@@ -26,6 +26,6 @@ She's a beaut:
 
 ### I can add code
 
-My code page is [here](code.html)
+My code page is [here](code.html).
 
 
