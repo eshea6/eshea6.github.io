@@ -24,3 +24,15 @@ She's a beaut:
 
 <img src="images/data_science_doggo.png" style="width:75%">
 
+### I can add code
+
+```{r}
+library(tidyverse)
+
+tibble(
+  x = 1:10,
+  y = x + 2
+)
+```
+
+
