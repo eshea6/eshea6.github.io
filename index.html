@@ -11,7 +11,7 @@
 
 
 
-<title>Holy cow!</title>
+<title>Eileen Shea</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,9 +19,6 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -172,101 +169,6 @@ $(document).ready(function () {
 
 
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -308,36 +210,20 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Holy cow!</h1>
+<h1 class="title toc-ignore">Eileen Shea</h1>
 
 </div>
 
 
-<div id="i-have-a-webpage" class="section level3">
-<h3>I have a webpage!</h3>
-<p>And I can put all kinds of stuff on it!</p>
-<p>I can add additional text.</p>
-<p>I <em>could</em> write some code but I’m not going to.</p>
-</div>
-<div id="add-some-links" class="section level3">
-<h3>Add some links</h3>
-<p>I like <a href="https://www.google.com">to look for code on the internet</a>.</p>
-<p>I can link directly to my <a href="about.html">about page</a>.</p>
-</div>
-<div id="picture-of-a-dog" class="section level3">
-<h3>Picture of a dog</h3>
-<p>She’s a beaut:</p>
-<p><img src="images/data_science_doggo.png" style="width:75%"></p>
-</div>
-<div id="i-can-add-code" class="section level3">
-<h3>I can add code</h3>
-<p>My code page is <a href="code.html">here</a>.</p>
+<p><img src="images/website_photo.png" style="width:25%"></p>
+<div id="welcome" class="section level2">
+<h2>Welcome!</h2>
+<p>My name is Eileen Shea and I am a current MPH student at the Columbia University Mailman School of Public Health. My interests lie at the interstices of environmental health science, biostatistics and economics.</p>
+<p>Learn more about me <a href="about.html">here</a>.</p>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 
