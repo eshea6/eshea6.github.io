@@ -17,5 +17,8 @@ My name is Eileen Shea and I am a current MPH student at the Columbia University
 
 Learn more about me [here](about.html).
 
+See some plots from NY NOAA data [here](NY_NOAA_Plots.html).
+
+
 
 

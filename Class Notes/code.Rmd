@@ -1,13 +1,9 @@
 ---
-title: "Code"
+title: "Dashboard"
 ---
 
 ```{r}
-library(tidyverse)
-
-tibble(
-  x = 1:10,
-  y = x + 2
-)
+library(flexdashboard)
+rmarkdown::render("NY_NOAA_Plots.Rmd", output_format = "flex_dashboard")
 ```
 
