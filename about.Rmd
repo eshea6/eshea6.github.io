@@ -2,8 +2,21 @@
 title: "About"
 ---
 
-### About this site
+## Education
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+Columbia Unversity - Mailman School of Public Health  
+Master of Public Health Candidate - May 2019  
+Department of Environmental Health Sciences  
+Certificate: Applied Biostatistics  
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+
+
+University of Wisconsin - Madison  
+Bachelor of Science - December 2016  
+Major: Environmental Science  
+Major: Agricultural & Applied Economics  
+Certificate: Environmental Studies  
+
+
+
+

@@ -4,6 +4,10 @@ output:
   html_document
 ---
 
+## MPH Student in Environmental Health Sciences
+
+## Columbia University Mailman School of Public Health
+
 <img src="images/website_photo.png" style="width:25%">
 
 ## Welcome!
