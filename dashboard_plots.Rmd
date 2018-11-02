@@ -12,6 +12,15 @@ library(plotly)
 ```
 
 ```{r}
+data("ny_noaa")
 
+ny_noaa_clean = ny_noaa %>% 
+  separate(date, into = c("year", "month", "day"), sep = "-") %>% 
+  filter(snow >= 0 & !is.na(prcp) & !is.na(snow) & !is.na(snwd) & !is.na(tmax) & !is.na(tmin) & year > 1999) %>% 
+  mutate(
+    tmax = as.numeric(tmax) / 10,
+    tmin = as.numeric(tmin) / 10,
+    prcp = prcp / 10
+  )
 ```
 
