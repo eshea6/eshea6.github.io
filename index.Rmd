@@ -4,20 +4,18 @@ output:
   html_document
 ---
 
-## MPH Student in Environmental Health Sciences
+## Biostatistician Data Analyst
 
-## Columbia University Mailman School of Public Health
+## MPH, Environmental Health Sciences + Applied Biostatistics
 
 <img src="images/website_photo.png" style="width:25%">
 
 ## Welcome!
 
-My name is Eileen Shea and I am a current MPH student at the Columbia University Mailman School of Public Health. My interests lie at the interstices of environmental health science, biostatistics and economics. 
+My name is Eileen Shea and I am a Biostatistician Data Analyst with Mental Health Data Science - a division of the Columbia University Department of Psychiatry, New York State Psychiatric Institute (NYSPI), and Research Foundation for Mental Hygiene (RFMH). My interests lie at the intersections of environmental health science, mental health throught the lifecourse, biostatistics, and economics. 
 
 
 Learn more about me [here](about.html).
-
-See some plots from NY NOAA data [here](NY_NOAA_Plots.html).
 
 
 
